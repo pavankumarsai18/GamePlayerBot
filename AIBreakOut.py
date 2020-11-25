@@ -1,4 +1,4 @@
-#1
+# NOTE: ONLY THE AI WAS DONE BY ME
 import math, random, sys
 import pygame as py
 from pygame.locals import *

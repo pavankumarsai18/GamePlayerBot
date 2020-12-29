@@ -25,13 +25,14 @@ To create an AI we first have to train it. Both these bots were trained using NE
 
 The activation function that is used for all the nodes except the last layer is the sigmoid function. The activation function used in the last layer is softmax. We use softmax because it makes the agreggated sum of nodes in last layer equal one. 
 
-* **Inputs to the Neural Network**
+**Inputs to the Neural Network**
+
 The inputs to the neural network are
 1. The distance of the bird from ground
 2. Vertical distance between the bird and the top pipe
 3. Vertical distance between the bird and the bottom pipe
 
-* **Output from the Neural Network**
+**Output from the Neural Network**
 
 In the last layer we have just one node that tells the bird to either go up or down.
 1. if the value of the node is less than 50% we do not go up.
@@ -42,15 +43,14 @@ In the last layer we have just one node that tells the bird to either go up or d
 
 The activation function to all the nodes except the last node is sigmoid function.
 
-* **Inputs to the Neural Network**
+**Inputs to the Neural Network**
 
-The inputs are as follows
 1. reactangles x coordinate
 2. ball's x coordinate
 3. ball's y corrdinate
 4. balls starting position
 
-* **Output from the Neural Network**
+**Output from the Neural Network**
 
 We have three output nodes in the last layer
 1. if the first node has highest probability then we move the rectangle to right.

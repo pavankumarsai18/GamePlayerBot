@@ -64,6 +64,6 @@ The bots never die. Since the bots have been trained for 60 generations each the
 This project was indpired from both TechWithTim and CodeBullet. 
 
 ## Demo
+* ![GifFlappyBird](https://media.giphy.com/media/hHpha1dLcm3NsLCjBr/giphy.gif)
 
-![GifFlappyBird](https://media.giphy.com/media/hHpha1dLcm3NsLCjBr/giphy.gif)
-![GifBreakOutAI](https://media.giphy.com/media/doxA29JkeLZg6gfD5u/giphy.gif)
+* ![GifBreakOutAI](https://media.giphy.com/media/doxA29JkeLZg6gfD5u/giphy.gif)

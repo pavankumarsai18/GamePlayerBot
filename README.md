@@ -58,7 +58,7 @@ We have three output nodes in the last layer
 3. if the third node has highest probability then we do not move it.
 
 ## When do the bots die?
-The bots never die. Since the bots have been trained for 60 generations each they have become near perfect, they play the game till it is over.
+The bots never die. Since the bots have been trained for 60 generations each they have become near perfect, they play the game till it is near the end. The flappy bird AI does not die, but the breakOut AI dies before having two or three blocks.
 
 ## Inspired from ...
 This project was indpired from both TechWithTim and CodeBullet. 
@@ -66,3 +66,4 @@ This project was indpired from both TechWithTim and CodeBullet.
 ## Demo
 
 ![GifFlappyBird](https://media.giphy.com/media/hHpha1dLcm3NsLCjBr/giphy.gif)
+![GifBreakOutAI](https://media.giphy.com/media/doxA29JkeLZg6gfD5u/giphy.gif)

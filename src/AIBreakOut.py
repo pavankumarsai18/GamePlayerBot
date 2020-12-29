@@ -8,13 +8,7 @@ import neat
 import pickle
 import numpy as np
 from scipy.special import softmax
-# from PyQt5 import QtWidgets
 
-
-# define the colors
-
-# db = nullEscDBClass()
-# db.startGameCon()
 py.init()
 black = (0, 0, 0)
 white = (255, 255, 255)
@@ -150,35 +144,6 @@ class Ball(py.sprite.Sprite):
         else:
             return False
 
-
-# class UserMouse(py.sprite.Sprite):
-#     """Represents the bar that the player will be moving with the mouse"""
-#     def __init__(self):
-#         # Call the parent's construtor
-#         super().__init__()
-#
-#         self.width = 75
-#         self.height = 15
-#         self.image = py.Surface([self.width, self.height])
-#         self.image.fill(white)
-#
-#         # make the top-left corner the pass in location
-#         self.rect = self.image.get_rect()
-#         self.screenheight = py.display.get_surface().get_height()
-#         self.screenwidth = py.display.get_surface().get_width()
-#
-#         self.rect.x = 0
-#         self.rect.y = self.screenheight - self.height
-#
-#     def update(self):
-#         """Update the user pos"""
-#         # get the user pos
-#         pos = py.mouse.get_pos()
-#         # set the left side of the user bar to the mouse position
-#         self.rect.x = pos[0]
-#         # make sure we don't push user off
-#         if self.rect.x > self.screenwidth - self.width:
-#             self.rect.x = self.screenwidth - self.width
 
 
 class UserKey(py.sprite.Sprite):
@@ -445,7 +410,6 @@ def breakout(genome, config):
 if __name__ == "__main__":
     local_dir = os.path.dirname(__file__)
     config_path = os.path.join(local_dir, "config-feedforward.txt")
-    # run(config_path)
 
     genome = pickle.load(open('breakoutAI.pickle', 'rb'))
 
@@ -454,5 +418,4 @@ if __name__ == "__main__":
                           'breakoutconfig-feedforward.txt')
 
     breakout(genome, config)
-    # # db.saveScore("BreakOut ",x)
-    # py.quit()
+

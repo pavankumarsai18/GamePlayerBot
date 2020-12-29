@@ -15,7 +15,20 @@
 ![BreakOut](/pics/BreakOut.png)
 
 ## How to run?
-To run this project it is enough to download the src folder and to run the 'AIBreakOut.py' and 'AIFlappyBird.py'. 
+To run this project please perform the following steps.
+
+1. Download the project
+2. Open src folder
+3. If you want to run the Flappy bird AI run the command below in your terminal
+  **python AIFlappyBird.py**
+  This will open a PyGame window and run the program
+
+4. If you instead want to run the BreakOut AI run the command below in your terminal
+  **python AIBreatOut.py**
+  This will open a PyGame window and run the program
+
+5. For training the AI we need to change the configuration files. The config file for FlappyBird AI is 'config-feedforward.txt', whereas the config file for BreakOut is 'breakoutconfig-feedforward.txt'.
+
 
 ## How does it work?
 To create an AI we first have to train it. Both these bots were trained using NEAT algorithm, this requires a config file that descirbe what parameters to train the AI on. After the training is complete, we save the model in a pickle file. This file stores the neural network in a binary format, which includes all the nodes, their connection and weights. When we run the python file the program simply uses the pickle file and plays the game.

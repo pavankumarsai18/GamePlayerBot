@@ -67,3 +67,7 @@ This project was indpired from both TechWithTim and CodeBullet.
 * ![GifFlappyBird](https://media.giphy.com/media/hHpha1dLcm3NsLCjBr/giphy.gif)
 
 * ![GifBreakOutAI](https://media.giphy.com/media/doxA29JkeLZg6gfD5u/giphy.gif)
+
+## Credits
+* Me
+* TheNextCEO
